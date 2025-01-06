@@ -29,21 +29,21 @@ namespace SuperBowl
         {
             string[] s = sor.Split(';');
 
-            Ssz = s[1];
+            Ssz = s[0];
 
-            Datum = s[2];
+            Datum = s[1];
 
-            Gyoztes = s[3];
+            Gyoztes = s[2];
 
-            Eredmeny = s[4];
+            Eredmeny = s[3];
 
-            Vesztes = s[5];
+            Vesztes = s[4];
 
-            Helyszin = s[6];
+            Helyszin = s[5];
 
-            VarosAllam = s[7];
+            VarosAllam = s[6];
 
-            NezoSzam = int.Parse(s[8]);
+            NezoSzam = int.Parse(s[7]);
         }
     }
 }
